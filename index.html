@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+</head>
+<body>
+
+<form>
+	<strong>Value 1:</strong><input type="input" id="value1"><br>
+	<strong>Value 2:</strong><input type="input" id="value2"><br>
+	<strong>Operator:</strong>
+	<select id="operator">
+		<option value ="add">Addition</option><br>
+		<option value = "min">Minus</option><br>
+		<option value = "mul">Multiplication</option><br>
+		<option value ="div">Divide</option>
+	</select>
+	<button type="button" onclick="test()">Calculate</button>
+</form>
+<div id="result"></div>
+
+<button
+ onclick= "document.getElementById('bulb').src='onbulb.jpg'">Turn on the light
+</button>
+
+<img id="bulb" src="offbulb.jpg" style="margin-top:10px" >
+
+<button
+  onclick= "document.getElementById('bulb').src='offbulb.jpg'">Turn off the light 
+</button>
+<p id="demo"></p>
+</body>
+<script src="this.js"></script>
+</html>
